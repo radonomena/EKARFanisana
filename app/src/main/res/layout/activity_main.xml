@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="app.android.mg.ekarfanisana.MainActivity">
+
+    <TextView
+        android:id="@+id/lbl_nb_lehibe"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:text="@string/lehibe" />
+
+    <TextView
+        android:id="@+id/txt_nb_lehibe"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        app:layout_constraintRight_toLeftOf="@id/btn_add_lehibe" />
+
+    <Button
+        android:id="@+id/btn_add_lehibe"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="@string/add"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_nb_tanora"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:text="@string/tanora"
+        app:layout_constraintTop_toBottomOf="@id/lbl_nb_lehibe" />
+
+    <TextView
+        android:id="@+id/txt_nb_tanora"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        app:layout_constraintRight_toLeftOf="@id/btn_add_tanora"
+        app:layout_constraintTop_toBottomOf="@id/txt_nb_lehibe" />
+
+    <Button
+        android:id="@+id/btn_add_tanora"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="@string/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_add_lehibe" />
+
+    <TextView
+        android:id="@+id/lbl_nb_ankizy"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:text="@string/ankizy"
+        app:layout_constraintTop_toBottomOf="@id/lbl_nb_tanora" />
+
+    <TextView
+        android:id="@+id/txt_nb_ankizy"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        app:layout_constraintRight_toLeftOf="@id/btn_add_ankizy"
+        app:layout_constraintTop_toBottomOf="@id/txt_nb_tanora" />
+
+    <Button
+        android:id="@+id/btn_add_ankizy"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="@string/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_add_tanora" />
+
+    <TextView
+        android:id="@+id/lbl_nb_zaza"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:text="@string/zaza"
+        app:layout_constraintTop_toBottomOf="@id/lbl_nb_ankizy" />
+
+    <TextView
+        android:id="@+id/txt_nb_zaza"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        app:layout_constraintRight_toLeftOf="@id/btn_add_zaza"
+        app:layout_constraintTop_toBottomOf="@id/txt_nb_ankizy" />
+
+    <Button
+        android:id="@+id/btn_add_zaza"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="@string/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_add_ankizy" />
+
+    <Button
+        android:id="@+id/btn_valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valider"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_add_zaza" />
+
+    <TextView
+        android:id="@+id/txt_nb_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toBottomOf="@id/btn_valider" />
+
+    <Button
+        android:id="@+id/btn_reinitialiser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reinitialiser"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_nb_total" />
+</android.support.constraint.ConstraintLayout>

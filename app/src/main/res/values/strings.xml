@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EKAR Fanisana</string>
+    <string name="lehibe">lehibe</string>
+    <string name="tanora">tanora</string>
+    <string name="ankizy">ankizy</string>
+    <string name="zaza">zaza</string>
+    <string name="add">ampiana</string>
+    <string name="valider">faranana</string>
+    <string name="reinitialiser">Vaovao</string>
+    <string name="sauvegarder">Hitahiry</string>
+    <string name="quitter">Hanakatona</string>
+</resources>
